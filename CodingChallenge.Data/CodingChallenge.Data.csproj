@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\CodeAttribute.cs" />
+    <Compile Include="Classes\CalculadoraGeometrica.cs" />
     <Compile Include="Classes\Languages.cs" />
     <Compile Include="Classes\Cuadrado.cs" />
     <Compile Include="Classes\FormaGeometrica.cs" />
