@@ -30,7 +30,6 @@ namespace CodingChallenge.Data.Classes
 
         public override string GetQuantityDescription(List<FormaGeometrica> shapes)
         {
-            if (!shapes.Any()) return string.Empty;
             return $"{shapes.Count} {(shapes.Count == 1 ? Messages.Rectangle : Messages.Rectangles)}";
         }
     }
